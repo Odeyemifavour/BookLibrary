@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let library = [];
+
+// function to add book
+function addBook(){
+    let bookId = parseInt(prompt("enter book ID in number" , 0 )) ;
+    let bookTitle = prompt("enter book title", "title");
+    let bookAuthor = prompt ("enter book author", "author");
+    let bookPages = prompt("enter amount of pages in book");
+    let bookYearOfPulication = prompt("enter year book was published");
+    let bookInfo = { bookId: bookId, bookTitle: bookTitle, bookAuthor:bookAuthor, bookPages: bookPages, bookYearOfPulication: bookYearOfPulication};
+    library.push(bookInfo);
+    console.log(library);
+}
+
+// function to update book
+function updateBook(){
+    let bookId =parseInt( prompt("enter book ID (in number) to be updated" , 0 ) );
+    let validId;
+
+      for (let i = 0; i < library.length; i++) {
+        if (library[i].bookId === bookId) {
+            validId= true;
+            let bookTitle = prompt("Enter updated book title");
+            let bookAuthor = prompt("Enter updated book author");
+            let bookPages = prompt("Enter updated amount of pages in book");
+            let bookYearOfPublication = prompt("Enter updated year book was published");
+
+            library[i].bookTitle = bookTitle;
+            library[i].bookAuthor = bookAuthor;
+            library[i].bookPages = bookPages;
+            library[i].bookYearOfPublication = bookYearOfPublication;
+
+            console.log("Book updated successfully");
+        }
+        else 
+    {
+        console.log("Invalid ID! Book not found");
+    }
+     }
+    
+}    
+    
+// function to delete book
+function deleteBook(){
+    let bookId = parseInt(prompt("Enter book id (in number) to be deleted", 0));
+    for (let i = 0; i < library.length; i++) {
+        if (library[i].bookId === bookId) {
+            library.splice(index, 1);
+            console.log("Book deleted successfully!");
+            console.log(library);
+        }
+    }
+    
+}
+
+// function to display books
+function displayBooks() {
+    console.log("Books available in the library are:");
+    for (let index in library) {
+        console.log(library[index]);
+    }
+}
+
+
+// Users Choice
+let choice = prompt("Choose an action: 1 - Add book, 2 - Update book, 3 - Delete a book, 4 - Display books available");
+switch (choice){
+    case "1": addBook();
+    break;
+    case "2": updateBook();
+    break;
+    case "3": deleteBook();
+    break;
+    case "4": displayBooks();
+    break;
+    default:
+        console.log(" Error,invalid choice!");
+}
+
+
+    </script> -->
+</body>
+</html>
